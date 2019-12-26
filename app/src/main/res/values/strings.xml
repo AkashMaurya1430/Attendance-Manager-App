@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Attendance Manager</string>
+    <string name="drawerOpen" />
+    <string name="drawerClose" />
+    <string name="emergency" />
+    <string name="invalid_name">PLEASE ENTER NAME</string>
+    <string name="invalid_prn">ENTER A VALID PRN</string>
+    <string name="invalid_email">PLEASE ENTER VALID EMAIL ADDRESS</string>
+    <string name="invalid_pass">PLEASE ENTER MINIMUM 6 CHARACTER</string>
+    <string name="invalid_year">PLEASE SELECT A YEAR</string>
+    <string name="invalid_branches">PLEASE SELECT A BRANCH</string>
+
+    <string-array name="names">
+        <item>USER TYPE</item>
+        <item>ADMIN</item>
+        <item>TEACHER</item>
+        <item>STUDENT</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>YEAR</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+
+    <string-array name="branches">
+        <item>BRANCH</item>
+        <item>IT</item>
+        <item>COMPS</item>
+        <item>EXTC</item>
+        <item>MECH</item>
+        <item>PPT</item>
+    </string-array>
+
+
+</resources>

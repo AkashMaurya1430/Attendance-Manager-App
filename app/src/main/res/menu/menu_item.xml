@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/TakeAttendence"
+    android:title="TAKE ATTENDENCE"/>
+    <item
+        android:id="@+id/ViewAttendence"
+        android:title="VIEW ATTENDENCE"/>
+    <item
+        android:id="@+id/upload"
+        android:title="UPLOAD"/>
+    <item
+        android:id="@+id/Logout"
+        android:title="LOGOUT"/>
+
+</menu>

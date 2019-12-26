@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Take_attendance">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/prnupdate"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:text="PRN"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/left"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="PRESENT"
+        android:onClick="Present"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Absent"
+        android:onClick="Absent"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"/>
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ViewPager"
+        />
+
+    </LinearLayout>
+</RelativeLayout>
